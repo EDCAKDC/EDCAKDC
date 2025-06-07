@@ -1,16 +1,26 @@
-## Hi there 👋
+# 👋 Hi there, I'm EDCAKDC
 
-<!--
-**EDCAKDC/EDCAKDC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 I'm currently learning bioinformatics, and I'd like to share the RNA-seq analysis code I've been studying.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔬 Featured Project: RNA-seq DEG Analysis
+
+A step-by-step R pipeline for analyzing differential gene expression using the **airway dataset**, visualizing PCA, volcano plots, heatmaps, and performing GO/KEGG/GSEA enrichment.
+
+### 📁 Project Structure
+
+```text
+airway-DEG-analysis/
+├── Step00-install_packages.R     <- Install required R packages
+├── Step01-airwayCounts.R         <- Load expression matrix
+├── Step02-sampleDistribution.R   <- Plot sample distribution
+├── Step03-PCA_Cor.R              <- Perform PCA and sample correlation analysis
+├── Step04-edgeR_DEG.R            <- Differential expression analysis with edgeR
+├── Step05-DEG_volcano.R          <- Generate volcano plot of DEGs
+├── Step05-DGE_heatmap.R          <- Draw heatmap of top DEGs
+├── Step06-GO_KEGG_enrich.R       <- GO and KEGG enrichment analysis
+├── Step06-GSEA_analysis.R        <- GSEA enrichment analysis
+├── data/                         <- Input data (e.g. count matrix, metadata)
+├── result/                       <- Output figures and result tables
+└── Diff_analysis/                <- Intermediate differential analysis outputs
