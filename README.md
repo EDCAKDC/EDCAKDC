@@ -8,32 +8,31 @@
 
 A step-by-step R pipeline for analyzing differential gene expression using the **airway dataset**, visualizing PCA, volcano plots, heatmaps, and performing GO/KEGG/GSEA enrichment.
 
-📋 Sample Group Metadata (`group.txt`)
-This file contains metadata used to define sample groups for differential expression analysis.
+### 📋 Sample Group Metadata (`group.txt`)
 
-Each row corresponds to one sample, including its unique ID (run_accession) and its experimental label (sample_title).
+This file defines the sample grouping used for DEG analysis.
 
 There are 3 conditions:
 
-A: untreated control group
+- **A**: untreated control group  
+- **B**: treatment group  
+- **C**: another treatment group  
 
-B: treatment group 
-
-C: the other treatment group 
 Each group has 3 biological replicates.
 
-Example group.txt:
+**Example group.txt**:
 
+```tsv
 run_accession    sample_title
-A1              XXX_1
-A2              XXX_2
-A3              XXX_3
-B1              YYY_1
-B2              YYY_2
-B3              YYY_3
-C1              ZZZ_1
-C2              ZZZ_2
-C3              ZZZ_3
+A1               XXX_1
+A2               XXX_2
+A3               XXX_3
+B1               YYY_1
+B2               YYY_2
+B3               YYY_3
+C1               ZZZ_1
+C2               ZZZ_2
+C3               ZZZ_3
 
 ### 📁 Project Structure
 
