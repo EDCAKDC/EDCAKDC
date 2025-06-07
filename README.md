@@ -12,7 +12,7 @@ A step-by-step R pipeline for analyzing differential gene expression using the *
 
 ```text
 airway-DEG-analysis/
-├── Step00-install_packages.R     <- Install required R packages
+├── Step00-R packages.R           <- Required R packages
 ├── Step01-airwayCounts.R         <- Load expression matrix
 ├── Step02-sampleDistribution.R   <- Plot sample distribution
 ├── Step03-PCA_Cor.R              <- Perform PCA and sample correlation analysis
