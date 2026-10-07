@@ -4,109 +4,176 @@
 
 ### Computational Cancer Immunology · CAR-T Cell Therapy · Single-Cell Genomics
 
-**Research Assistant at Penn Medicine**  
-**M.S.E. in Bioengineering, University of Pennsylvania**
+**Research Assistant · Penn Medicine**  
+**M.S.E. Bioengineering · University of Pennsylvania**
 
-*Connecting high-dimensional immune data with clinically meaningful biology.*
+<br>
+
+![CAR-T](https://img.shields.io/badge/CAR--T-Cell_Therapy-24292f?style=flat-square)
+![Single Cell](https://img.shields.io/badge/Single--Cell-Genomics-24292f?style=flat-square)
+![TCR](https://img.shields.io/badge/TCR-Repertoire-24292f?style=flat-square)
+![Cancer Genomics](https://img.shields.io/badge/Cancer-Genomics-24292f?style=flat-square)
+![R](https://img.shields.io/badge/R-Analysis-276DC3?style=flat-square&logo=r&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Analysis-3776AB?style=flat-square&logo=python&logoColor=white)
+
+<br>
+
+*Translating high-dimensional immune data into biological and clinical insight.*
 
 </div>
 
 ---
 
-## About Me
+## Research at a Glance
 
-I am a bioengineer and computational researcher working at the intersection of **cancer immunology, cellular therapy, and translational bioinformatics**.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-My research focuses on understanding **immune-cell states, clonal dynamics, and molecular determinants of therapeutic response** using single-cell transcriptomics, TCR repertoire analysis, cancer genomics, proteomics, flow cytometry, and bulk RNA-seq.
+### 🧬 CAR-T & Tumor Immunology
 
-I am particularly interested in computational approaches that connect molecular measurements with clinically meaningful biology in **CAR-T cell therapy and tumor immunology**.
+Long-term CAR-T persistence, immune-cell states, treatment response, exhaustion, memory, and translational cellular therapy.
 
----
+</td>
+<td width="33%" valign="top">
 
-## Research Highlights
+### 🔬 Single-Cell & TCR
 
-### 🧬 Long-term CAR-T persistence
+scRNA-seq, clonotype dynamics, repertoire diversity, cell-state annotation, regulon analysis, and longitudinal immune profiling.
 
-I contributed computational analyses to a study of **CD19 CAR-T cells persisting more than nine years after infusion**, integrating single-cell transcriptomics and TCR repertoire information to characterize long-term CAR-T states and clonal evolution.
+</td>
+<td width="33%" valign="top">
 
-**Nature Medicine (2026)**  
-*Decade-long persistence of CD19 CAR T cells in B cell lymphomas*  
-[DOI: 10.1038/s41591-026-04578-1](https://doi.org/10.1038/s41591-026-04578-1)
+### 🧫 Translational Genomics
 
-→ **[GSE311890-CART-analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)**
+Cancer genomics, survival analysis, proteomics, flow cytometry, bulk transcriptomics, and multi-omics integration.
 
-### 🧪 Single-cell & immune-repertoire analysis
-
-- scRNA-seq QC, integration, clustering, annotation, and differential expression
-- CAR-positive versus CAR-negative T-cell state comparison
-- longitudinal TCR clonotype tracking and repertoire-diversity analysis
-- Harmony integration and Seurat-based workflows
-- pySCENIC regulon analysis
-- pathway enrichment and gene-signature analysis
-- external reference / CITE-seq similarity analysis
-
-→ **[tcr-clonotype-analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)**
-
-### 🧫 Translational cancer genomics
-
-- somatic mutation and VAF analysis
-- oncoprint-based cohort characterization
-- Kaplan–Meier and Cox proportional-hazards modeling
-- logistic regression and clinical association testing
-- longitudinal genomic comparison
-- reproducible clinical-data visualization
-
-### 🔬 Multi-omics & functional profiling
-
-- bulk RNA-seq differential expression and pathway analysis
-- Olink proteomic profiling
-- flow-cytometry clustering and UMAP visualization
-- FlowSOM-based immune-phenotype analysis
-- harmonization of heterogeneous biological datasets
+</td>
+</tr>
+</table>
 
 ---
 
-## Selected Projects
+## Featured Publication
 
-| Project | Focus | Methods |
-|---|---|---|
-| **[GSE311890-CART-analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)** | Long-term CAR-T persistence | scRNA-seq, TCR, Harmony, DE, pySCENIC |
-| **[tcr-clonotype-analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)** | TCR + transcriptome integration | Seurat, scRepertoire, Harmony |
-| **[2ndLine_CAR_LBCL](https://github.com/EDCAKDC/2ndLine_CAR_LBCL)** | CAR-T flow cytometry | FlowSOM, UMAP, cluster abundance |
-| **[Single-Cell-RNA-SEQ](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ)** | Cancer single-cell workflows | Seurat, SCENIC, inferCNV, CellChat |
-| **[RNA-SEQ](https://github.com/EDCAKDC/RNA-SEQ)** | Bulk transcriptomics | edgeR, PCA, GSEA, GO/KEGG |
-| **[metabolic-systems-biology](https://github.com/EDCAKDC/metabolic-systems-biology)** | Systems biology | COBRApy, FBA/FVA |
+> ### **Decade-long persistence of CD19 CAR T cells in B cell lymphomas**
+> **Nature Medicine · 2026**  
+> Computational analysis of long-term CAR-T transcriptional states and immune-repertoire evolution.
+
+**[Publication](https://doi.org/10.1038/s41591-026-04578-1)** · **[Analysis code](https://github.com/EDCAKDC/GSE311890-CART-analysis)** · **GEO: GSE311890**
+
+---
+
+## Featured Research Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧬 [GSE311890 CAR-T Analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)
+
+Long-term CAR-T single-cell analysis associated with the *Nature Medicine* study.
+
+**Methods:** scRNA-seq · TCR · Harmony · differential expression · pySCENIC · pathway analysis
+
+</td>
+<td width="50%" valign="top">
+
+### 🧪 [TCR + scRNA-seq Clonotype Analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)
+
+Integration of transcriptional cell states with T-cell receptor clonotypes.
+
+**Methods:** Seurat · scRepertoire · Harmony · repertoire overlap · clonotype tracking
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🔬 [2nd-Line CAR-LBCL Flow Analysis](https://github.com/EDCAKDC/2ndLine_CAR_LBCL)
+
+Unsupervised phenotypic analysis of CAR-T / LBCL flow-cytometry data.
+
+**Methods:** FlowSOM · UMAP · asinh transformation · cluster abundance
+
+</td>
+<td width="50%" valign="top">
+
+### 🧫 [Single-Cell RNA-seq Workflows](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ)
+
+Modular cancer single-cell workflows from QC to downstream biological interpretation.
+
+**Methods:** Seurat · SCENIC · inferCNV · CellChat · trajectory analysis
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ [Metabolic Systems Biology](https://github.com/EDCAKDC/metabolic-systems-biology)
+
+Constraint-based modeling of T-cell metabolism under tumor-microenvironment conditions.
+
+**Methods:** COBRApy · FBA/FVA · E-Flux · knockout analysis · metabolic robustness
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 [Biomedical ML Benchmark](https://github.com/EDCAKDC/Machine-Learning)
+
+Reproducible comparison of tabular classification models with interpretation.
+
+**Methods:** logistic regression · RF · XGBoost · LightGBM · SVM · ANN · SHAP
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Computational Toolkit
 
-| Area | Tools & Methods |
-|---|---|
-| **Languages** | R · Python · Bash |
-| **Single-cell** | Seurat · Harmony · scRepertoire · pySCENIC |
-| **Transcriptomics** | DESeq2 · edgeR · limma · STAR · featureCounts · Salmon |
-| **Pathway analysis** | clusterProfiler · fgsea · GSEA · GSVA · ReactomePA |
-| **Flow cytometry** | FlowSOM · UMAP · density-based visualization |
-| **Genomics & statistics** | mutation/VAF analysis · Kaplan–Meier · Cox regression · logistic regression · multiple-testing correction |
-| **Computing** | Linux · Conda · Git · RStudio Server |
+**Languages**  
+R · Python · Bash
+
+**Single-cell & immune repertoire**  
+Seurat · Harmony · scRepertoire · pySCENIC · FlowSOM
+
+**Transcriptomics & genomics**  
+DESeq2 · edgeR · limma · STAR · featureCounts · Salmon · mutation/VAF analysis
+
+**Pathways & systems biology**  
+clusterProfiler · fgsea · GSEA · GSVA · ReactomePA · COBRApy
+
+**Statistics**  
+Wilcoxon tests · linear/logistic regression · Kaplan–Meier · Cox regression · multiple-testing correction
+
+**Computing**  
+Linux · Conda · Git · RStudio Server
 
 ---
 
 ## Research Interests
 
-**Computational cancer immunology** · **CAR-T biology** · **single-cell genomics** · **TCR repertoire analysis** · **translational bioinformatics** · **cancer genomics** · **multi-omics**
+<div align="center">
+
+**Computational Cancer Immunology** · **CAR-T Biology** · **Single-Cell Genomics**  
+**TCR Repertoire Analysis** · **Translational Bioinformatics** · **Cancer Genomics** · **Multi-Omics**
+
+</div>
 
 ---
 
-## Reproducibility
+## Reproducible Research
 
-I aim to make analysis code **clear, modular, and reproducible**. Public repositories contain analysis code and documentation where data-sharing permissions allow; large or controlled-access datasets are referenced through their original repositories or accession numbers.
-
----
+I aim to make computational analyses **clear, modular, and reproducible**. Public repositories contain analysis code and documentation where data-sharing permissions allow; large or controlled-access datasets are linked through their original repositories or accession numbers.
 
 <div align="center">
 
-### Translating immune data into biological and clinical insight
+<br>
+
+**Penn Medicine · University of Pennsylvania**
 
 </div>
