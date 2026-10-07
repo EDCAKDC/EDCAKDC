@@ -2,23 +2,14 @@
 
 # Computational Cancer Immunology
 
-### CAR-T Cell Therapy · Single-Cell Genomics · TCR Repertoire
+### CAR-T Cell Therapy · Single-Cell & Immune Repertoire · Translational Genomics
 
-**@EDCAKDC** · Research Assistant, Penn Medicine  
+**Research Assistant, Penn Medicine**  
 M.S.E. Bioengineering · University of Pennsylvania
 
 <br>
 
-![CAR-T](https://img.shields.io/badge/CAR--T-Cell_Therapy-1f2937?style=flat-square)
-![Single Cell](https://img.shields.io/badge/Single--Cell-Genomics-1f2937?style=flat-square)
-![TCR](https://img.shields.io/badge/TCR-Repertoire-1f2937?style=flat-square)
-![Cancer Genomics](https://img.shields.io/badge/Cancer-Genomics-1f2937?style=flat-square)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-<br>
-
-*Translating high-dimensional immune data into biological and clinical insight.*
+*Developing reproducible computational approaches to study immune-cell states, clonal dynamics, and therapeutic response.*
 
 </div>
 
@@ -26,21 +17,13 @@ M.S.E. Bioengineering · University of Pennsylvania
 
 ## Featured Publication
 
-<table>
-<tr>
-<td width="100%" valign="top">
-
-### 🧬 Decade-long persistence of CD19 CAR T cells in B cell lymphomas
+### Decade-long persistence of CD19 CAR T cells in B cell lymphomas
 
 **Nature Medicine · 2026**
 
-Computational analysis of long-term CAR-T transcriptional states and immune-repertoire evolution, integrating single-cell transcriptomics and TCR information.
+Computational analysis of long-term CAR-T transcriptional states and immune-repertoire evolution using single-cell transcriptomics and TCR data.
 
-**[Publication](https://doi.org/10.1038/s41591-026-04578-1)** · **[Analysis code](https://github.com/EDCAKDC/GSE311890-CART-analysis)** · **GEO: GSE311890**
-
-</td>
-</tr>
-</table>
+[**Publication**](https://doi.org/10.1038/s41591-026-04578-1) · [**Analysis code**](https://github.com/EDCAKDC/GSE311890-CART-analysis) · **GEO GSE311890**
 
 ---
 
@@ -50,23 +33,23 @@ Computational analysis of long-term CAR-T transcriptional states and immune-repe
 <tr>
 <td width="33%" valign="top">
 
-### 🧬 CAR-T Biology
+**CAR-T & Tumor Immunology**
 
-Long-term persistence, immune-cell state, treatment response, exhaustion, memory, and translational cellular therapy.
-
-</td>
-<td width="33%" valign="top">
-
-### 🔬 Single-Cell & TCR
-
-scRNA-seq, clonotype dynamics, repertoire diversity, cell-state annotation, regulon analysis, and longitudinal immune profiling.
+Long-term persistence, cell-state evolution, treatment response, exhaustion, memory, and translational cellular therapy.
 
 </td>
 <td width="33%" valign="top">
 
-### 🧫 Translational Genomics
+**Single-Cell & TCR**
 
-Cancer genomics, survival analysis, proteomics, flow cytometry, bulk transcriptomics, and multi-omics integration.
+Transcriptomic states, clonotype dynamics, repertoire diversity, regulon activity, and longitudinal immune profiling.
+
+</td>
+<td width="33%" valign="top">
+
+**Translational Genomics**
+
+Cancer genomics, survival modeling, proteomics, flow cytometry, bulk transcriptomics, and multi-omics analysis.
 
 </td>
 </tr>
@@ -74,7 +57,7 @@ Cancer genomics, survival analysis, proteomics, flow cytometry, bulk transcripto
 
 ---
 
-## Featured Projects
+## Selected Research Code
 
 <table>
 <tr>
@@ -82,18 +65,18 @@ Cancer genomics, survival analysis, proteomics, flow cytometry, bulk transcripto
 
 ### [GSE311890 CAR-T Analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)
 
-Long-term CAR-T single-cell analysis associated with the *Nature Medicine* study.
+Reproducible analysis for the long-term CAR-T study published in *Nature Medicine*.
 
-**scRNA-seq · TCR · Harmony · DE · pySCENIC**
+**scRNA-seq · TCR · Harmony · differential expression · pySCENIC**
 
 </td>
 <td width="50%" valign="top">
 
-### [TCR + scRNA-seq Clonotype Analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)
+### [TCR + scRNA-seq Analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)
 
 Integration of transcriptional cell states with T-cell receptor clonotypes.
 
-**Seurat · scRepertoire · Harmony · Clonotype tracking**
+**Seurat · scRepertoire · Harmony · clonotype tracking**
 
 </td>
 </tr>
@@ -101,41 +84,20 @@ Integration of transcriptional cell states with T-cell receptor clonotypes.
 <tr>
 <td width="50%" valign="top">
 
-### [2nd-Line CAR-LBCL Flow Analysis](https://github.com/EDCAKDC/2ndLine_CAR_LBCL)
+### [CAR-LBCL Flow Cytometry](https://github.com/EDCAKDC/2ndLine_CAR_LBCL)
 
-Unsupervised phenotypic analysis of CAR-T / LBCL flow-cytometry data.
+Unsupervised analysis of high-dimensional CAR-T / LBCL flow-cytometry data.
 
-**FlowSOM · UMAP · Cluster abundance**
-
-</td>
-<td width="50%" valign="top">
-
-### [Single-Cell RNA-seq Workflows](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ)
-
-Modular cancer single-cell workflows from QC to downstream interpretation.
-
-**Seurat · SCENIC · inferCNV · CellChat**
+**FlowSOM · UMAP · phenotypic clustering · abundance analysis**
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### [Metabolic Systems Biology](https://github.com/EDCAKDC/metabolic-systems-biology)
 
 Constraint-based modeling of T-cell metabolism under tumor-microenvironment conditions.
 
-**COBRApy · FBA/FVA · E-Flux · KO analysis**
-
-</td>
-<td width="50%" valign="top">
-
-### [Biomedical ML Benchmark](https://github.com/EDCAKDC/Machine-Learning)
-
-Reproducible comparison of tabular classification models with model interpretation.
-
-**RandomizedSearchCV · XGBoost · SVM · ANN · SHAP**
+**COBRApy · FBA/FVA · E-Flux · perturbation analysis**
 
 </td>
 </tr>
@@ -143,51 +105,32 @@ Reproducible comparison of tabular classification models with model interpretati
 
 ---
 
-## Methods & Tools
+## Selected Computational Methods
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| Area | Representative methods & frameworks |
+|---|---|
+| **Single-cell & immune repertoire** | Seurat · Harmony · scRepertoire · pySCENIC · cell-state annotation · clonotype analysis |
+| **Transcriptomics** | DESeq2 · edgeR · limma · STAR · featureCounts · Salmon · GSEA |
+| **Cancer & regulatory genomics** | mutation/VAF analysis · MACS2 · ChIPseeker · genomic interval analysis |
+| **Flow cytometry** | FlowSOM · UMAP · cluster-abundance analysis · density visualization |
+| **Systems biology** | COBRApy · FBA · FVA · knockout analysis · E-Flux |
+| **Statistical modeling** | generalized linear models · survival analysis · multiple-testing correction |
+| **Scientific computing** | R · Python · Bash · Linux · Conda · Git |
 
-### Data Analysis
+---
 
-**Languages**  
-R · Python · Bash
+## Additional Computational Work
 
-**Single-cell & repertoire**  
-Seurat · Harmony · scRepertoire · pySCENIC
-
-**Flow cytometry**  
-FlowSOM · UMAP · density visualization
-
-</td>
-<td width="50%" valign="top">
-
-### Statistical & Systems Methods
-
-**Transcriptomics**  
-DESeq2 · edgeR · limma · STAR · featureCounts · Salmon
-
-**Statistics**  
-Wilcoxon · logistic regression · Kaplan–Meier · Cox regression
-
-**Systems biology**  
-clusterProfiler · fgsea · GSEA · GSVA · COBRApy
-
-</td>
-</tr>
-</table>
+[**Single-cell RNA-seq workflows**](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ) ·
+[**Bulk RNA-seq workflows**](https://github.com/EDCAKDC/RNA-SEQ) ·
+[**Biomedical machine learning**](https://github.com/EDCAKDC/Machine-Learning) ·
+[**Bioinformatics algorithms**](https://github.com/EDCAKDC/algorithm-playground)
 
 ---
 
 ## Research Interests
 
-<div align="center">
-
-**Computational Cancer Immunology** · **CAR-T Biology** · **Single-Cell Genomics**  
-**TCR Repertoire Analysis** · **Translational Bioinformatics** · **Cancer Genomics** · **Multi-Omics**
-
-</div>
+**Computational cancer immunology · CAR-T biology · single-cell genomics · TCR repertoire analysis · translational bioinformatics · cancer genomics · multi-omics**
 
 ---
 
