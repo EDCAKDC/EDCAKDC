@@ -31,7 +31,7 @@ M.S.E. Bioengineering, University of Pennsylvania
   <img src="assets/nature-figure3.jpg" width="100%" alt="Figure 3: Long-term CAR T-cell transcriptional profile">
 </a>
 
-<sub><i>Figure 3 · <b>Nature Medicine</b> (2026)</i></sub>
+<sub><i><b>Representative example:</b> Figure 3 from the study · <b>Nature Medicine</b> (2026)</i></sub>
 
 </td>
 <td width="52%" valign="top">
@@ -40,23 +40,31 @@ M.S.E. Bioengineering, University of Pennsylvania
 
 **Nature Medicine · 2026**
 
-Long-term CAR-T transcriptional states and immune-repertoire evolution using single-cell transcriptomics and TCR analysis.
+[![Role](https://img.shields.io/badge/My%20Role-Computational%20Analysis-7C3AED?style=for-the-badge)](https://www.nature.com/articles/s41591-026-04578-1)
+[![Co-author](https://img.shields.io/badge/Co--author-Nature%20Medicine-111827?style=for-the-badge)](https://doi.org/10.1038/s41591-026-04578-1)
 
 <br>
 
-[![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-2026-111827?style=for-the-badge)](https://doi.org/10.1038/s41591-026-04578-1)
+**My contribution:** I performed the computational analysis for this study, integrating high-dimensional molecular data to characterize the transcriptional and clonal features of long-term persisting CAR-T cells.
+
+The computational work included analyses of **single-cell transcriptomic states, CAR-positive versus CAR-negative populations, peak-versus-long-term comparisons, differential expression, pathway-level programs, TCR clonotype dynamics, and regulatory-state features**.
+
+> **Author Contributions:** “Z.Z. performed the computational analysis.”
+
+<br>
 
 [![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41591--026--04578--1-2563EB?style=flat-square)](https://doi.org/10.1038/s41591-026-04578-1)
 [![GEO](https://img.shields.io/badge/GEO-GSE311890-059669?style=flat-square)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311890)
-[![GitHub](https://img.shields.io/badge/Analysis-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/GSE311890-CART-analysis)
+[![GitHub](https://img.shields.io/badge/Reproducible-Analysis%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/GSE311890-CART-analysis)
 
 <br>
 
-**Figure 3** highlights the long-term CAR-T transcriptional profile, including cell-cycle state, pathway enrichment, differential expression, and peak-versus-year-9.3 comparisons.
+**Figure 3 is shown as one representative example of the broader computational analysis.** It highlights long-term CAR-T transcriptional states, pathway enrichment, differential expression, and peak-versus-year-9.3 comparisons.
 
 </td>
 </tr>
 </table>
+
 ---
 
 ## Research
