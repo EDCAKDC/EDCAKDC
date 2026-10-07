@@ -2,14 +2,14 @@
 
 # Computational Cancer Immunology
 
-### CAR-T Cell Therapy · Single-Cell & Immune Repertoire · Translational Genomics
+**CAR-T Cell Therapy · Single-Cell Genomics · TCR Repertoire · Translational Bioinformatics**
 
-**Research Assistant, Penn Medicine**  
-M.S.E. Bioengineering · University of Pennsylvania
+Research Assistant, Penn Medicine  
+M.S.E. Bioengineering, University of Pennsylvania
 
 <br>
 
-*Developing reproducible computational approaches to study immune-cell states, clonal dynamics, and therapeutic response.*
+*Using high-dimensional molecular and immune data to study cell state, clonal dynamics, and therapeutic response.*
 
 </div>
 
@@ -17,107 +17,62 @@ M.S.E. Bioengineering · University of Pennsylvania
 
 ## Featured Publication
 
-### Decade-long persistence of CD19 CAR T cells in B cell lymphomas
-
-**Nature Medicine · 2026**
-
-Computational analysis of long-term CAR-T transcriptional states and immune-repertoire evolution using single-cell transcriptomics and TCR data.
+> ### Decade-long persistence of CD19 CAR T cells in B cell lymphomas
+> **Nature Medicine · 2026**  
+> Long-term CAR-T transcriptional states and immune-repertoire evolution using single-cell and TCR analysis.
 
 [**Publication**](https://doi.org/10.1038/s41591-026-04578-1) ·
-[**Analysis code**](https://github.com/EDCAKDC/GSE311890-CART-analysis) ·
+[**Reproducible analysis**](https://github.com/EDCAKDC/GSE311890-CART-analysis) ·
 **GEO GSE311890**
 
 ---
 
-## Research Focus
+## Research
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**CAR-T & Tumor Immunology**
-
+**CAR-T & tumor immunology**  
 Long-term persistence, cell-state evolution, treatment response, exhaustion, memory, and translational cellular therapy.
 
-</td>
-<td width="33%" valign="top">
+**Single-cell & immune repertoire**  
+scRNA-seq, longitudinal TCR clonotypes, repertoire diversity, cell-state annotation, regulon activity, and pathway analysis.
 
-**Single-Cell & TCR**
-
-Transcriptomic states, clonotype dynamics, repertoire diversity, regulon activity, and longitudinal immune profiling.
-
-</td>
-<td width="33%" valign="top">
-
-**Translational Genomics**
-
-Cancer genomics, survival modeling, proteomics, flow cytometry, bulk transcriptomics, and multi-omics analysis.
-
-</td>
-</tr>
-</table>
+**Translational genomics**  
+Cancer genomics, survival modeling, proteomics, bulk transcriptomics, and integration of molecular and clinical data.
 
 ---
 
 ## Selected Research Code
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| Repository | Focus | Representative methods |
+|---|---|---|
+| **[GSE311890-CART-analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)** | Long-term CAR-T persistence | scRNA-seq · TCR · Harmony · differential expression · pySCENIC |
+| **[tcr-clonotype-analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)** | Transcriptome–TCR integration | Seurat · scRepertoire · Harmony · clonotype tracking |
+| **[metabolic-systems-biology](https://github.com/EDCAKDC/metabolic-systems-biology)** | T-cell metabolic modeling | COBRApy · FBA/FVA · E-Flux · perturbation analysis |
+| **[Machine-Learning](https://github.com/EDCAKDC/Machine-Learning)** | Biomedical classification benchmark | model comparison · hyperparameter tuning · SHAP |
 
-### [GSE311890 CAR-T Analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)
+### Methods-oriented repositories
 
-Reproducible analysis code for the long-term CAR-T study published in *Nature Medicine*.
-
-**scRNA-seq · TCR · Harmony · differential expression · pySCENIC**
-
-</td>
-<td width="50%" valign="top">
-
-### [TCR + scRNA-seq Analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)
-
-Integration of transcriptional cell states with T-cell receptor clonotypes.
-
-**Seurat · scRepertoire · Harmony · clonotype tracking**
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [Metabolic Systems Biology](https://github.com/EDCAKDC/metabolic-systems-biology)
-
-Constraint-based modeling of T-cell metabolism under tumor-microenvironment conditions.
-
-**COBRApy · FBA/FVA · E-Flux · perturbation analysis**
-
-</td>
-<td width="50%" valign="top">
-
-### [Biomedical ML Benchmark](https://github.com/EDCAKDC/Machine-Learning)
-
-Tabular classification benchmark with hyperparameter tuning and model interpretation.
-
-**RandomizedSearchCV · XGBoost · LightGBM · SVM · ANN · SHAP**
-
-</td>
-</tr>
-</table>
+[Single-cell RNA-seq workflows](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ) ·
+[Bulk RNA-seq workflows](https://github.com/EDCAKDC/RNA-SEQ) ·
+[Bioinformatics algorithms](https://github.com/EDCAKDC/algorithm-playground)
 
 ---
 
-## Selected Computational Methods
+<details>
+<summary><b>Selected computational methods</b></summary>
 
-| Domain | Representative methods |
+<br>
+
+| Domain | Methods & frameworks |
 |---|---|
-| **Single-cell & immune repertoire** | Seurat · Harmony · scRepertoire · pySCENIC · cell-state annotation · clonotype analysis |
+| **Single-cell & repertoire** | Seurat · Harmony · scRepertoire · pySCENIC · cell-state annotation · clonotype analysis |
 | **Transcriptomics** | DESeq2 · edgeR · limma · STAR · featureCounts · Salmon · GSEA |
 | **Cancer & regulatory genomics** | mutation/VAF analysis · MACS2 · ChIPseeker · genomic interval analysis |
 | **Flow cytometry** | FlowSOM · UMAP · cluster-abundance analysis · density visualization |
 | **Systems biology** | COBRApy · FBA · FVA · knockout analysis · E-Flux |
 | **Statistical modeling** | generalized linear models · survival analysis · multiple-testing correction |
 | **Scientific computing** | R · Python · Bash · Linux · Conda · Git |
+
+</details>
 
 ---
 
@@ -129,7 +84,7 @@ Tabular classification benchmark with hyperparameter tuning and model interpreta
 
 ## Reproducible Research
 
-I aim to keep computational analyses **clear, modular, and reproducible**. Public repositories contain code and documentation where data-sharing permissions allow; large or controlled-access datasets are linked through their original repositories or accession numbers.
+I aim to keep computational analyses **clear, modular, and reproducible**. Public repositories contain code and documentation where data-sharing permissions allow; large or controlled-access datasets are referenced through their original repositories or accession numbers.
 
 <div align="center">
 
