@@ -9,6 +9,13 @@ M.S.E. Bioengineering · University of Pennsylvania
 
 <br>
 
+[![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-2026-172554?style=flat-square)](https://doi.org/10.1038/s41591-026-04578-1)
+[![Computational Analysis](https://img.shields.io/badge/Computational-Analysis-6D5BD0?style=flat-square)](#featured-publication)
+[![Single-Cell & TCR](https://img.shields.io/badge/Single--Cell%20%26%20TCR-2F7F7F?style=flat-square)](#research-themes)
+[![Reproducible Code](https://img.shields.io/badge/Reproducible-Code-4B5563?style=flat-square&logo=github&logoColor=white)](#selected-work)
+
+<br><br>
+
 *Using high-dimensional molecular and immune data to study cell state, clonal dynamics, and therapeutic response.*
 
 <br>
@@ -37,6 +44,8 @@ M.S.E. Bioengineering · University of Pennsylvania
 ### *Decade-long persistence of CD19 CAR T cells in B cell lymphomas*
 
 **Nature Medicine · 2026 · Co-author**
+
+[![My role](https://img.shields.io/badge/My%20Role-Computational%20Analysis-6D5BD0?style=flat-square)](https://www.nature.com/articles/s41591-026-04578-1)
 
 #### Computational contribution
 
