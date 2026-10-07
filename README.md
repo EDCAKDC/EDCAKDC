@@ -9,6 +9,12 @@ M.S.E. Bioengineering, University of Pennsylvania
 
 <br>
 
+[![Publication](https://img.shields.io/badge/Publication-Nature%20Medicine-111827?style=flat-square)](#featured-publication)
+[![Research](https://img.shields.io/badge/Focus-CAR--T%20%7C%20Single--Cell%20%7C%20TCR-334155?style=flat-square)](#research)
+[![Code](https://img.shields.io/badge/Code-Reproducible%20Analysis-181717?style=flat-square&logo=github&logoColor=white)](#selected-research-code)
+
+<br><br>
+
 *Using high-dimensional molecular and immune data to study cell state, clonal dynamics, and therapeutic response.*
 
 </div>
@@ -17,43 +23,114 @@ M.S.E. Bioengineering, University of Pennsylvania
 
 ## Featured Publication
 
-> ### Decade-long persistence of CD19 CAR T cells in B cell lymphomas
-> **Nature Medicine · 2026**  
-> Long-term CAR-T transcriptional states and immune-repertoire evolution using single-cell and TCR analysis.
+<div align="center">
 
-[**Publication**](https://doi.org/10.1038/s41591-026-04578-1) ·
-[**Reproducible analysis**](https://github.com/EDCAKDC/GSE311890-CART-analysis) ·
-**GEO GSE311890**
+### **Decade-long persistence of CD19 CAR T cells in B cell lymphomas**
+
+**Nature Medicine · 2026**
+
+Long-term CAR-T transcriptional states and immune-repertoire evolution using single-cell and TCR analysis.
+
+<br>
+
+[![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-2026-111827?style=for-the-badge)](https://doi.org/10.1038/s41591-026-04578-1)
+[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41591--026--04578--1-2563EB?style=for-the-badge)](https://doi.org/10.1038/s41591-026-04578-1)
+[![GEO](https://img.shields.io/badge/GEO-GSE311890-059669?style=for-the-badge)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311890)
+[![GitHub](https://img.shields.io/badge/Analysis-Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EDCAKDC/GSE311890-CART-analysis)
+
+</div>
 
 ---
 
 ## Research
 
-**CAR-T & tumor immunology**  
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### CAR-T & Tumor Immunology
+
 Long-term persistence, cell-state evolution, treatment response, exhaustion, memory, and translational cellular therapy.
 
-**Single-cell & immune repertoire**  
+</td>
+<td width="33%" valign="top">
+
+### Single-Cell & Immune Repertoire
+
 scRNA-seq, longitudinal TCR clonotypes, repertoire diversity, cell-state annotation, regulon activity, and pathway analysis.
 
-**Translational genomics**  
+</td>
+<td width="33%" valign="top">
+
+### Translational Genomics
+
 Cancer genomics, survival modeling, proteomics, bulk transcriptomics, and integration of molecular and clinical data.
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Selected Research Code
 
-| Repository | Focus | Representative methods |
-|---|---|---|
-| **[GSE311890-CART-analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)** | Long-term CAR-T persistence | scRNA-seq · TCR · Harmony · differential expression · pySCENIC |
-| **[tcr-clonotype-analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)** | Transcriptome–TCR integration | Seurat · scRepertoire · Harmony · clonotype tracking |
-| **[metabolic-systems-biology](https://github.com/EDCAKDC/metabolic-systems-biology)** | T-cell metabolic modeling | COBRApy · FBA/FVA · E-Flux · perturbation analysis |
-| **[Machine-Learning](https://github.com/EDCAKDC/Machine-Learning)** | Biomedical classification benchmark | model comparison · hyperparameter tuning · SHAP |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [GSE311890-CART-analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)
+
+Long-term CAR-T persistence and immune-repertoire evolution.
+
+**scRNA-seq · TCR · Harmony · differential expression · pySCENIC**
+
+[![View repository](https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/GSE311890-CART-analysis)
+
+</td>
+<td width="50%" valign="top">
+
+### [tcr-clonotype-analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)
+
+Integration of transcriptomic cell states with T-cell receptor clonotypes.
+
+**Seurat · scRepertoire · Harmony · clonotype tracking**
+
+[![View repository](https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/tcr-clonotype-analysis)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [metabolic-systems-biology](https://github.com/EDCAKDC/metabolic-systems-biology)
+
+Constraint-based modeling of T-cell metabolism under tumor-microenvironment conditions.
+
+**COBRApy · FBA/FVA · E-Flux · perturbation analysis**
+
+[![View repository](https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/metabolic-systems-biology)
+
+</td>
+<td width="50%" valign="top">
+
+### [Machine-Learning](https://github.com/EDCAKDC/Machine-Learning)
+
+Biomedical tabular classification benchmark with model interpretation.
+
+**model comparison · hyperparameter tuning · SHAP**
+
+[![View repository](https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/Machine-Learning)
+
+</td>
+</tr>
+</table>
 
 ### Methods-oriented repositories
 
-[Single-cell RNA-seq workflows](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ) ·
-[Bulk RNA-seq workflows](https://github.com/EDCAKDC/RNA-SEQ) ·
-[Bioinformatics algorithms](https://github.com/EDCAKDC/algorithm-playground)
+[![Single-cell RNA-seq](https://img.shields.io/badge/Single--cell-RNA--seq-334155?style=flat-square)](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ)
+[![Bulk RNA-seq](https://img.shields.io/badge/Bulk-RNA--seq-334155?style=flat-square)](https://github.com/EDCAKDC/RNA-SEQ)
+[![Bioinformatics Algorithms](https://img.shields.io/badge/Bioinformatics-Algorithms-334155?style=flat-square)](https://github.com/EDCAKDC/algorithm-playground)
 
 ---
 
@@ -78,7 +155,12 @@ Cancer genomics, survival modeling, proteomics, bulk transcriptomics, and integr
 
 ## Research Interests
 
-**Computational cancer immunology · CAR-T biology · single-cell genomics · TCR repertoire analysis · translational bioinformatics · cancer genomics · multi-omics**
+<div align="center">
+
+**Computational cancer immunology · CAR-T biology · single-cell genomics**  
+**TCR repertoire analysis · translational bioinformatics · cancer genomics · multi-omics**
+
+</div>
 
 ---
 
