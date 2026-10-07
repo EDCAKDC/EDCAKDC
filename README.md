@@ -23,7 +23,9 @@ M.S.E. Bioengineering · University of Pennsylvania
 
 Computational analysis of long-term CAR-T transcriptional states and immune-repertoire evolution using single-cell transcriptomics and TCR data.
 
-[**Publication**](https://doi.org/10.1038/s41591-026-04578-1) · [**Analysis code**](https://github.com/EDCAKDC/GSE311890-CART-analysis) · **GEO GSE311890**
+[**Publication**](https://doi.org/10.1038/s41591-026-04578-1) ·
+[**Analysis code**](https://github.com/EDCAKDC/GSE311890-CART-analysis) ·
+**GEO GSE311890**
 
 ---
 
@@ -65,7 +67,7 @@ Cancer genomics, survival modeling, proteomics, flow cytometry, bulk transcripto
 
 ### [GSE311890 CAR-T Analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)
 
-Reproducible analysis for the long-term CAR-T study published in *Nature Medicine*.
+Reproducible analysis code for the long-term CAR-T study published in *Nature Medicine*.
 
 **scRNA-seq · TCR · Harmony · differential expression · pySCENIC**
 
@@ -84,20 +86,20 @@ Integration of transcriptional cell states with T-cell receptor clonotypes.
 <tr>
 <td width="50%" valign="top">
 
-### [CAR-LBCL Flow Cytometry](https://github.com/EDCAKDC/2ndLine_CAR_LBCL)
-
-Unsupervised analysis of high-dimensional CAR-T / LBCL flow-cytometry data.
-
-**FlowSOM · UMAP · phenotypic clustering · abundance analysis**
-
-</td>
-<td width="50%" valign="top">
-
 ### [Metabolic Systems Biology](https://github.com/EDCAKDC/metabolic-systems-biology)
 
 Constraint-based modeling of T-cell metabolism under tumor-microenvironment conditions.
 
 **COBRApy · FBA/FVA · E-Flux · perturbation analysis**
+
+</td>
+<td width="50%" valign="top">
+
+### [Biomedical ML Benchmark](https://github.com/EDCAKDC/Machine-Learning)
+
+Tabular classification benchmark with hyperparameter tuning and model interpretation.
+
+**RandomizedSearchCV · XGBoost · LightGBM · SVM · ANN · SHAP**
 
 </td>
 </tr>
@@ -107,7 +109,7 @@ Constraint-based modeling of T-cell metabolism under tumor-microenvironment cond
 
 ## Selected Computational Methods
 
-| Area | Representative methods & frameworks |
+| Domain | Representative methods |
 |---|---|
 | **Single-cell & immune repertoire** | Seurat · Harmony · scRepertoire · pySCENIC · cell-state annotation · clonotype analysis |
 | **Transcriptomics** | DESeq2 · edgeR · limma · STAR · featureCounts · Salmon · GSEA |
@@ -116,15 +118,6 @@ Constraint-based modeling of T-cell metabolism under tumor-microenvironment cond
 | **Systems biology** | COBRApy · FBA · FVA · knockout analysis · E-Flux |
 | **Statistical modeling** | generalized linear models · survival analysis · multiple-testing correction |
 | **Scientific computing** | R · Python · Bash · Linux · Conda · Git |
-
----
-
-## Additional Computational Work
-
-[**Single-cell RNA-seq workflows**](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ) ·
-[**Bulk RNA-seq workflows**](https://github.com/EDCAKDC/RNA-SEQ) ·
-[**Biomedical machine learning**](https://github.com/EDCAKDC/Machine-Learning) ·
-[**Bioinformatics algorithms**](https://github.com/EDCAKDC/algorithm-playground)
 
 ---
 
