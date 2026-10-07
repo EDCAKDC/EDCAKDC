@@ -2,20 +2,18 @@
 
 # Computational Cancer Immunology
 
-**CAR-T Cell Therapy · Single-Cell Genomics · TCR Repertoire · Translational Bioinformatics**
+**CAR-T Cell Therapy · Single-Cell Genomics · Immune Repertoire · Translational Bioinformatics**
 
-Research Assistant, Penn Medicine  
-M.S.E. Bioengineering, University of Pennsylvania
+**Computational Research Assistant · Penn Medicine**  
+M.S.E. Bioengineering · University of Pennsylvania
 
 <br>
 
-[![Publication](https://img.shields.io/badge/Publication-Nature%20Medicine-111827?style=flat-square)](#featured-publication)
-[![Research](https://img.shields.io/badge/Focus-CAR--T%20%7C%20Single--Cell%20%7C%20TCR-334155?style=flat-square)](#research)
-[![Code](https://img.shields.io/badge/Code-Reproducible%20Analysis-181717?style=flat-square&logo=github&logoColor=white)](#selected-research-code)
-
-<br><br>
-
 *Using high-dimensional molecular and immune data to study cell state, clonal dynamics, and therapeutic response.*
+
+<br>
+
+[**Publication**](#featured-publication) · [**Research Themes**](#research-themes) · [**Selected Work**](#selected-work) · [**Methods**](#selected-computational-methods)
 
 </div>
 
@@ -25,41 +23,31 @@ M.S.E. Bioengineering, University of Pennsylvania
 
 <table>
 <tr>
-<td width="48%" valign="top">
+<td width="44%" valign="top">
 
 <a href="https://doi.org/10.1038/s41591-026-04578-1">
-  <img src="assets/nature-figure3.jpg" width="100%" alt="Figure 3: Long-term CAR T-cell transcriptional profile">
+  <img src="assets/nature-figure3.jpg" width="100%" alt="Representative computational analysis from the long-term CAR-T study">
 </a>
 
-<sub><i><b>Representative example:</b> Figure 3 from the study · <b>Nature Medicine</b> (2026)</i></sub>
+<sub><i><b>Representative analysis example.</b> Figure 3 from the study; shown here as one example of the broader computational work.</i></sub>
 
 </td>
-<td width="52%" valign="top">
+<td width="56%" valign="top">
 
-### **Decade-long persistence of CD19 CAR T cells in B cell lymphomas**
+### *Decade-long persistence of CD19 CAR T cells in B cell lymphomas*
 
-**Nature Medicine · 2026**
+**Nature Medicine · 2026 · Co-author**
 
-[![Role](https://img.shields.io/badge/My%20Role-Computational%20Analysis-7C3AED?style=for-the-badge)](https://www.nature.com/articles/s41591-026-04578-1)
-[![Co-author](https://img.shields.io/badge/Co--author-Nature%20Medicine-111827?style=for-the-badge)](https://doi.org/10.1038/s41591-026-04578-1)
+#### Computational contribution
 
-<br>
+I performed the **computational analysis for the study**, integrating single-cell transcriptomic and immune-repertoire data to characterize long-term persisting CAR-T cells.
 
-**My contribution:** I performed the computational analysis for this study, integrating high-dimensional molecular data to characterize the transcriptional and clonal features of long-term persisting CAR-T cells.
-
-The computational work included analyses of **single-cell transcriptomic states, CAR-positive versus CAR-negative populations, peak-versus-long-term comparisons, differential expression, pathway-level programs, TCR clonotype dynamics, and regulatory-state features**.
+**Analysis scope**  
+Single-cell state characterization · CAR⁺ versus CAR⁻ comparisons · peak versus year-9.3 longitudinal analysis · differential expression · pathway programs · TCR clonotype dynamics · regulatory-state analysis
 
 > **Author Contributions:** “Z.Z. performed the computational analysis.”
 
-<br>
-
-[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41591--026--04578--1-2563EB?style=flat-square)](https://doi.org/10.1038/s41591-026-04578-1)
-[![GEO](https://img.shields.io/badge/GEO-GSE311890-059669?style=flat-square)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311890)
-[![GitHub](https://img.shields.io/badge/Reproducible-Analysis%20Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/GSE311890-CART-analysis)
-
-<br>
-
-**Figure 3 is shown as one representative example of the broader computational analysis.** It highlights long-term CAR-T transcriptional states, pathway enrichment, differential expression, and peak-versus-year-9.3 comparisons.
+**[Paper ↗](https://doi.org/10.1038/s41591-026-04578-1)** · **[Reproducible analysis ↗](https://github.com/EDCAKDC/GSE311890-CART-analysis)** · **[GEO GSE311890 ↗](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311890)**
 
 </td>
 </tr>
@@ -67,7 +55,7 @@ The computational work included analyses of **single-cell transcriptomic states,
 
 ---
 
-## Research
+## Research Themes
 
 <table>
 <tr>
@@ -97,7 +85,7 @@ Cancer genomics, survival modeling, proteomics, bulk transcriptomics, and integr
 
 ---
 
-## Selected Research Code
+## Selected Work
 
 <table>
 <tr>
@@ -105,22 +93,22 @@ Cancer genomics, survival modeling, proteomics, bulk transcriptomics, and integr
 
 ### [GSE311890-CART-analysis](https://github.com/EDCAKDC/GSE311890-CART-analysis)
 
-Long-term CAR-T persistence and immune-repertoire evolution.
+**Publication-associated analysis**
 
-**scRNA-seq · TCR · Harmony · differential expression · pySCENIC**
+Reproducible code for long-term CAR-T transcriptional states and immune-repertoire evolution.
 
-[![View repository](https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/GSE311890-CART-analysis)
+<sub>scRNA-seq · TCR · Harmony · differential expression · pySCENIC</sub>
 
 </td>
 <td width="50%" valign="top">
 
 ### [tcr-clonotype-analysis](https://github.com/EDCAKDC/tcr-clonotype-analysis)
 
-Integration of transcriptomic cell states with T-cell receptor clonotypes.
+**Immune-repertoire workflow**
 
-**Seurat · scRepertoire · Harmony · clonotype tracking**
+Integration of transcriptional cell states with T-cell receptor clonotypes.
 
-[![View repository](https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/tcr-clonotype-analysis)
+<sub>Seurat · scRepertoire · Harmony · clonotype tracking</sub>
 
 </td>
 </tr>
@@ -130,41 +118,42 @@ Integration of transcriptomic cell states with T-cell receptor clonotypes.
 
 ### [metabolic-systems-biology](https://github.com/EDCAKDC/metabolic-systems-biology)
 
+**Systems-biology modeling**
+
 Constraint-based modeling of T-cell metabolism under tumor-microenvironment conditions.
 
-**COBRApy · FBA/FVA · E-Flux · perturbation analysis**
-
-[![View repository](https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/metabolic-systems-biology)
+<sub>COBRApy · FBA/FVA · E-Flux · perturbation analysis</sub>
 
 </td>
 <td width="50%" valign="top">
 
 ### [Machine-Learning](https://github.com/EDCAKDC/Machine-Learning)
 
-Biomedical tabular classification benchmark with model interpretation.
+**Biomedical ML benchmark**
 
-**model comparison · hyperparameter tuning · SHAP**
+Tabular classification workflows with model comparison, tuning, and interpretation.
 
-[![View repository](https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/Machine-Learning)
+<sub>logistic regression · tree ensembles · SVM · ANN · SHAP</sub>
 
 </td>
 </tr>
 </table>
 
-### Methods-oriented repositories
-
-[![Single-cell RNA-seq](https://img.shields.io/badge/Single--cell-RNA--seq-334155?style=flat-square)](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ)
-[![Bulk RNA-seq](https://img.shields.io/badge/Bulk-RNA--seq-334155?style=flat-square)](https://github.com/EDCAKDC/RNA-SEQ)
-[![Bioinformatics Algorithms](https://img.shields.io/badge/Bioinformatics-Algorithms-334155?style=flat-square)](https://github.com/EDCAKDC/algorithm-playground)
+**Methods-oriented repositories:**  
+[Single-cell RNA-seq workflows](https://github.com/EDCAKDC/Single-Cell-RNA-SEQ) ·
+[Bulk RNA-seq workflows](https://github.com/EDCAKDC/RNA-SEQ) ·
+[Bioinformatics algorithms](https://github.com/EDCAKDC/algorithm-playground)
 
 ---
 
+## Selected Computational Methods
+
 <details>
-<summary><b>Selected computational methods</b></summary>
+<summary><b>View methods & frameworks</b></summary>
 
 <br>
 
-| Domain | Methods & frameworks |
+| Domain | Representative methods |
 |---|---|
 | **Single-cell & repertoire** | Seurat · Harmony · scRepertoire · pySCENIC · cell-state annotation · clonotype analysis |
 | **Transcriptomics** | DESeq2 · edgeR · limma · STAR · featureCounts · Salmon · GSEA |
@@ -175,17 +164,6 @@ Biomedical tabular classification benchmark with model interpretation.
 | **Scientific computing** | R · Python · Bash · Linux · Conda · Git |
 
 </details>
-
----
-
-## Research Interests
-
-<div align="center">
-
-**Computational cancer immunology · CAR-T biology · single-cell genomics**  
-**TCR repertoire analysis · translational bioinformatics · cancer genomics · multi-omics**
-
-</div>
 
 ---
 
