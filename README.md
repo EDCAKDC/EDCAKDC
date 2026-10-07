@@ -23,18 +23,7 @@ M.S.E. Bioengineering, University of Pennsylvania
 
 ## Featured Publication
 
-<table>
-<tr>
-<td width="52%" valign="top">
-
-<a href="https://doi.org/10.1038/s41591-026-04578-1">
-  <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04578-1/MediaObjects/41591_2026_4578_Fig3_HTML.png" width="100%" alt="Figure 3: Long-term CAR T cell transcriptional profile">
-</a>
-
-<sub><i>Figure 3 from Paruzzo et al., <b>Nature Medicine</b> (2026). Reused under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</i></sub>
-
-</td>
-<td width="48%" valign="top">
+<div align="center">
 
 ### **Decade-long persistence of CD19 CAR T cells in B cell lymphomas**
 
@@ -45,18 +34,15 @@ Long-term CAR-T transcriptional states and immune-repertoire evolution using sin
 <br>
 
 [![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-2026-111827?style=for-the-badge)](https://doi.org/10.1038/s41591-026-04578-1)
+[![Figure 3](https://img.shields.io/badge/View-Figure%203-475569?style=for-the-badge)](https://www.nature.com/articles/s41591-026-04578-1/figures/3)
+
+<br>
 
 [![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41591--026--04578--1-2563EB?style=flat-square)](https://doi.org/10.1038/s41591-026-04578-1)
 [![GEO](https://img.shields.io/badge/GEO-GSE311890-059669?style=flat-square)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311890)
 [![GitHub](https://img.shields.io/badge/Analysis-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EDCAKDC/GSE311890-CART-analysis)
 
-<br>
-
-**Figure shown:** long-term CAR-T transcriptional profile, including cell-cycle state, pathway enrichment, differential expression, and peak-versus-year-9.3 comparisons.
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
