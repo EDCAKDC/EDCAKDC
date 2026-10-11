@@ -20,10 +20,10 @@ My research focuses on **CAR-T cell biology, single-cell genomics, TCR repertoir
 
 ### Featured publication
 
-**Nature Medicine · 2026 · Fourth author**  
+**Nature Medicine · 2026 · Computational Analysis**  
 *Decade-long persistence of CD19 CAR T cells in B cell lymphomas*
 
-**Contribution:** led the computational analysis for the study.
+**Contribution:** Performed the computational analysis for the study.
 
 [Paper ↗](https://doi.org/10.1038/s41591-026-04578-1) · [Reproducible analysis ↗](https://github.com/EDCAKDC/GSE311890-CART-analysis)
 
