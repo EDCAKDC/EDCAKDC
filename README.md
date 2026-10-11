@@ -8,8 +8,6 @@
 
 M.S.E. Bioengineering · University of Pennsylvania
 
-<br>
-
 ### [Visit Academic Portfolio →](https://edcakdc.github.io)
 
 </div>
@@ -29,4 +27,4 @@ My research focuses on **CAR-T cell biology, single-cell genomics, TCR repertoir
 
 ---
 
-For research directions, selected projects, publications, and CV, visit the **[academic portfolio](https://edcakdc.github.io)**.
+**Explore:** [Research](https://edcakdc.github.io/research/) · [Projects](https://edcakdc.github.io/projects/) · [Publications](https://edcakdc.github.io/publications/) · [CV](https://edcakdc.github.io/cv/)
